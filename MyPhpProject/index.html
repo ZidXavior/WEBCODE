@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="process.php" method="post">
+       <table>
+        <tr>
+            <td>Enter the number of pineapple:</td>
+            <td><input type="text" name="quantity"></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><select name="address">
+                    <option value="dhaka">Dhaka</option>
+                    <option value="ctg">Chittagong</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Home Delivery:</td>
+            <td><input type="radio" name="hd" value="yes"> Yes <input type="radio" name="hd" value="no"> No </td>
+        </tr>
+        <tr>
+            <td>Tip:</td>
+            <td><input type="text" name="tip"> </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center"><button>Calculate Bill</button></td>
+            
+        </tr>
+       </table>
+    </form>
+</body>
+</html>
